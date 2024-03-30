@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodos de arreglos</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <hr />
+      <p>Nueva tarea</p>
+      <form id="addForm" class="addForm">
+        <input
+          type="text"
+          name="add"
+          id="add"
+          placeholder="Escribe aquí"
+          class="wide-input"
+        />
+        <button type="submit">Agregar</button>
+      </form>
+
+      <div id="tareas" class="container2">
+        <div class="izq">
+          <div class="total">
+            <p>Total :</p>
+            <p id="total"></p>
+          </div>
+          <div class="realizadas">
+            <p>Realizadas :</p>
+            <p id="realizadas"></p>
+          </div>
+        </div>
+        <div class="id">
+          <div class="titulos">
+            <p>ID</p>
+            <p>Tarea</p>
+          </div>
+          <div id="tarea_list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
